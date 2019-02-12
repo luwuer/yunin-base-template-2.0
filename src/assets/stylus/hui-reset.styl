@@ -1,0 +1,31 @@
+@import './variable.styl'
+
+// menu
+.h-menu
+  .h-menu-item, .h-menu-submenu
+    background $menu-bg
+
+.h-menu-item, .h-menu-submenu-title
+  text-align left
+
+.menu-container .h-menu-vertical .h-menu-submenu-title-icon
+  top 12px
+
+.h-menu-submenu-title
+  font-size 12px
+
+.h-menu-collapse > .h-menu-submenu > .h-menu-submenu-title > i
+  position relative
+  left -3px
+
+.operate-c .h-menu, .menu-container .h-menu-dark, .menu-container .h-menu-dark.h-menu-vertical .h-menu-opened .h-menu-submenu-title
+  background $menu-bg
+
+.h-menu-collapse > .h-menu-submenu > .h-menu-submenu-title > .icon-wrapper {
+  display block
+}
+
+.h-menu-dark.h-menu-vertical .h-menu-item-active:not(.h-menu-submenu) {
+  background rgb(41, 141, 255) !important
+  color #fff
+}

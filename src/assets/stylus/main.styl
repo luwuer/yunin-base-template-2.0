@@ -1,0 +1,29 @@
+@import './variable.styl'
+
+html
+  height 100%
+
+body
+  color $menu-bg
+  height 100%
+
+// -------清除浮动----------
+.clearfix
+  zoom 1 /*for ie6*/
+.clearfix:after
+  content ''
+  display block
+  height 0
+  line-height 0
+  font-size 0
+  clear both
+  visibility hidden
+
+// -------换行----------
+.nowrap
+  white-space nowrap
+  overflow hidden
+  text-overflow ellipsis
+.wrap
+  word-wrap break-word
+  word-break break-all
