@@ -1,16 +1,8 @@
-# 私享汇
+# 云英前端基础模板
 
-## Build Setup
+从云英管理台项目剥离的基础模块，方便第2+次构建同类型项目
 
-``` bash
-# install dependencies
-yarn
+### Setup
 
-# serve with hot reload at localhost:8080
-yarn dev
-
-# build for production with minification
-yarn build
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1. `git clone git@github.com:luwuer/yunin-base-template-2.0.git`
+2. `yarn && yarn dev`
