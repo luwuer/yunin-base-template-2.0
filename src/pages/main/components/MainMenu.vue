@@ -211,7 +211,6 @@ export default {
       }
 
       let ret = null
-      debugger
       ret = this.filterByTitle(this.menus, {
         des,
         parents: []
