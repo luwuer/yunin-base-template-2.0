@@ -1,8 +1,29 @@
-# 云英前端基础模板
+# demo
 
-从云英管理台项目剥离的基础模块，方便第2+次构建同类型项目
+## Project setup
+```
+yarn install
+```
 
-### Setup
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
 
-1. `git clone git@github.com:luwuer/yunin-base-template-2.0.git`
-2. `yarn && yarn dev`
+### Compiles and minifies for production
+```
+yarn run build
+```
+
+### Run your tests
+```
+yarn run test
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
